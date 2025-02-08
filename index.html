@@ -31,6 +31,19 @@
             background-color: #003d82;
             border-radius: 5px;
         }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?kaaba,hajj,umrah') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
         .container {
             max-width: 900px;
             margin: auto;
@@ -40,18 +53,30 @@
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
-        h1 {
+        h1, h2 {
             color: #0056b3;
             text-align: center;
-            font-weight: 600;
-        }
-        h2 {
-            color: #007bff;
             font-weight: 600;
         }
         ul {
             list-style-type: square;
             padding-left: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background: #0056b3;
         }
         .footer {
             margin-top: 20px;
@@ -74,6 +99,10 @@
         <a href="contact.html">Contact Us</a>
     </div>
     
+    <div class="hero">
+        Experience the Journey of a Lifetime with Us
+    </div>
+    
     <div class="container">
         <h1>Welcome to Islamic Travels & Visa Consultancy</h1>
         <p>Your trusted partner for Hajj, Umrah, and Visa services.</p>
@@ -85,10 +114,9 @@
             <li><strong>Flight & Hotel Booking:</strong> Best deals on flights and accommodations.</li>
             <li><strong>Ziyarat Tours:</strong> Visit historical Islamic sites with expert guidance.</li>
         </ul>
-        <h2>Contact Us</h2>
-        <p>📍 <strong>Office Address:</strong> [Your Address Here]</p>
-        <p>📞 <strong>Phone:</strong> +92 300 1234567</p>
-        <p>📧 <strong>Email:</strong> info@islamictravels.com</p>
+        <div class="cta">
+            <a href="contact.html">Get in Touch</a>
+        </div>
     </div>
 
     <div class="footer">
