@@ -6,87 +6,44 @@
     <title>Islamic Travels & Visa Consultancy</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f5dc;
-            color: #004d00;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
             text-align: center;
         }
-        header {
-            background: url('kaaba-background.jpg') no-repeat center center/cover;
-            color: white;
-            padding: 80px 20px;
-            font-size: 24px;
-        }
-        nav {
-            background: #004d00;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        .services {
+        .hero {
+            height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            gap: 20px;
-            margin: 40px 0;
+            align-items: center;
         }
-        .service-box {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        .hero h1 {
+            font-size: 3rem;
         }
-        .whatsapp {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: green;
-            padding: 10px 15px;
-            border-radius: 50%;
+        .hero p {
+            font-size: 1.5rem;
+            max-width: 800px;
         }
-        .whatsapp a {
+        .cta-button {
+            background-color: #008000;
             color: white;
-            font-size: 20px;
-            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="hero">
         <h1>Welcome to Islamic Travels & Visa Consultancy</h1>
-        <p>Your Trusted Partner for Hajj, Umrah & Visit Visa</p>
-    </header>
-    
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Hajj</a>
-        <a href="#">Umrah</a>
-        <a href="#">Visit Visa</a>
-        <a href="#">Contact</a>
-    </nav>
-    
-    <section class="services">
-        <div class="service-box">
-            <h2>Hajj Packages</h2>
-            <p>Find the best Hajj packages tailored for you.</p>
-        </div>
-        <div class="service-box">
-            <h2>Umrah Services</h2>
-            <p>Plan your Umrah with ease and comfort.</p>
-        </div>
-        <div class="service-box">
-            <h2>Visit Visa</h2>
-            <p>Get hassle-free visa consultancy services.</p>
-        </div>
-    </section>
-    
-    <div class="whatsapp">
-        <a href="https://wa.me/yourwhatsapplink">WhatsApp</a>
+        <p>Your trusted partner for Hajj, Umrah, and Visa services. Experience a hassle-free journey with our professional guidance.</p>
+        <button class="cta-button">Contact Us</button>
     </div>
 </body>
 </html>
